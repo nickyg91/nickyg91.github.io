@@ -4,15 +4,8 @@ layout: home
 
 hero:
   name: "Nick Ganter"
-  text: "A VitePress portfolio site"
-  tagline: Designing software one line at a time
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  text: "Designing software one line at a time"
+  tagline: It works on my machine.
 
 features:
   - title: Feature A

@@ -6,7 +6,12 @@ export default {
   theme: {
     extend: {},
     daisyui: {
-      themes: ['nord']
+      darkTheme: 'forest',
+      themes: ['aqua', 'forest'],
+      base: true,
+      styled: true,
+      utils: true,
+      themeRoot: ":root"
     }
   },
   plugins: [daisyui]

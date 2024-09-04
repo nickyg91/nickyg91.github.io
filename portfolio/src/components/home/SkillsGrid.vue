@@ -55,7 +55,7 @@ const skills = ref<ISkill[]>([
 ]);
 </script>
 <template>
-  <div data-theme="light">
+  <div>
     <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1">
       <template v-for="skill in skills" :key="skill">
         <div class="flex flex-col flex-wrap">

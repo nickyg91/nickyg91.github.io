@@ -1,4 +1,5 @@
 export interface ISkill {
-  icon: string[];
+  icons: string[];
   description: string;
+  modifier: string;
 }

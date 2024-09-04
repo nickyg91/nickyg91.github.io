@@ -4,7 +4,7 @@
     <h2 class="text-3xl">About Me</h2>
     <hr />
     <p class="text-lg mt-5">
-      I am a Senior Full Stack Software Engineer specializing in Web, Mobile, and Desktop
+      I am a Staff Full Stack Software Engineer specializing in Web, Mobile, and Desktop
       development using ASP.NET MVC, ASP.NET Core, WinForms, WCF, and Xamarin. I graduated from UW
       Ohskosh in 2015 with a degree in Computer Science with an emphasis in Software Engineering. I
       absolutely love this field. There are endless amounts of things one can create. From

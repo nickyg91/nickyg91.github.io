@@ -6,7 +6,11 @@ import SkillsGrid from '@/components/home/SkillsGrid.vue';
   <div>
     <div class="p-5">
       <div class="text-center">
-        <img src="../assets/images/headshot.jpg" alt="headshot" class="rounded-full h-48 w-48 mx-auto" />
+        <img
+          src="../assets/images/headshot.jpg"
+          alt="headshot"
+          class="rounded-full h-48 w-48 mx-auto"
+        />
       </div>
       <AboutMe></AboutMe>
     </div>

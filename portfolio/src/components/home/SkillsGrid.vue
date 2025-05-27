@@ -1,16 +1,11 @@
 <script setup lang="ts">
-import type { ISkill } from '@/models/skill.interface';
+import type { ISkill } from '@/models/ISkill';
 import { ref } from 'vue';
 
 const skills = ref<ISkill[]>([
   {
-    icons: ['fa-angular', 'fa-vuejs', 'fa-typescript'],
-    description: 'Frontend Development using ngx, VueJS 2/3, and typescript',
-    modifier: 'fa-brands'
-  },
-  {
-    icons: ['fa-js-square'],
-    description: 'Frontend Development using vanilla JS or jQuery.',
+    icons: ['fa-angular', 'fa-vuejs', 'fa-js-square', 'fa-react'],
+    description: 'Frontend Development using ngx, Vue 3, React, Typescript, vanilla JS, or JQuery',
     modifier: 'fa-brands'
   },
   {
@@ -44,7 +39,8 @@ const skills = ref<ISkill[]>([
   },
   {
     icons: ['fa-envelope'],
-    description: 'Experience with using Request/Response, Pub/Sub, and Fire/Forget using RabbitMQ.',
+    description:
+      'Experience with using Request/Response, Pub/Sub, and Fire/Forget using RabbitMQ, MassTransit, and Redis.',
     modifier: 'fa-solid'
   },
   {
@@ -58,11 +54,11 @@ const skills = ref<ISkill[]>([
   <div>
     <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1">
       <template v-for="skill in skills" :key="skill">
-        <div class="flex flex-col flex-wrap">
-          <div class="w-full p-5">
+        <div class="flex flex-col flex-wrap p-2">
+          <div class="w-full">
             <div class="flex justify-center space-x-8">
               <i
-                class="text-5xl mb-2"
+                class="text-5xl mb-2 text-primary"
                 v-for="icon in skill.icons"
                 :key="icon"
                 :class="[skill.modifier, icon]"

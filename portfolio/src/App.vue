@@ -32,7 +32,7 @@ const onMouseLeave = () => {
           </a>
         </div>
         <div class="navbar-end">
-          <div class="flex">
+          <div class="flex p-5">
             <div class="mr-5">
               <RouterLink to="/" class="text-xl link link-hover">Home</RouterLink>
             </div>

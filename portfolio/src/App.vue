@@ -52,7 +52,7 @@ const onMouseLeave = () => {
         <RouterView />
       </Transition>
     </div>
-    <div class="p-5 w-full text-base-content fixed bottom-0">
+    <div class="p-5 w-full text-base-content bottom-0">
       <p class="text-sm">Powered by Vue 3, Nginx, and Fedora Server 41.</p>
     </div>
   </div>

@@ -13,8 +13,8 @@
       agile and waterfall methodologies to deliver high performance applications to consumers in a
       timely manner. I have used other frameworks to develop applications, but I tend to stick to
       the .NET ecosystem when creating apps due to its mature nature and proven track record. In my
-      spare time I enjoy creating learning new tech stacks, camping, playing basketball, watching
-      Bucks Basketball (the greatest team in the NBA), and playing video games.
+      spare time I enjoy spending time with my family, learning new tech stacks, camping, playing
+      basketball, watching Bucks Basketball (the greatest team in the NBA), and playing video games.
     </p>
   </div>
 </template>

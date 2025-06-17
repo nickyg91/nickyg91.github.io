@@ -65,9 +65,9 @@ const projects: IProject[] = [
         </div>
       </div>
     </div>
-    <div class="flex mt-5">
-      <div v-for="project in projects" :key="project.name" class="p-5">
-        <div class="card bg-base-300 shadow-xl min-h-60">
+    <div class="flex flex-wrap mt-5">
+      <div v-for="project in projects" :key="project.name" class="min-h-1/2 p-5 w-1/4">
+        <div class="card bg-base-300 shadow-xl min-h-72">
           <div class="card-body">
             <h2 class="card-title">
               <a :href="project.link" target="_blank" class="link link-hover text-primary">
